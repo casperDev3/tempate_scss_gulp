@@ -10,3 +10,11 @@
 @import "components/header";
 @import "components/footer";
 
+.template{
+    &__block{
+        min-height: 100vh;
+        min-width: 100vw;
+        background-color: #f00;
+    }
+
+}

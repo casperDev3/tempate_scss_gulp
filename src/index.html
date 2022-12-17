@@ -4,19 +4,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TEMPLATE</title>
-
+    <meta name="description"
+        content="Lorem ipsum — класичний варіант умовного беззмістовного тексту, що вставляється в макет сторінки. Lorem ipsum — це перекручений уривок з філософського трактату Цицерона «Про межі добра і зла», написаного в 45 році до нашої ери латиною.">
+    <meta name="keywords" content="test, testTemplate">
+    <meta name="robots" content="index">
+    <title>TEMPLATE-1</title>
+    <link rel="icon" type="image/x-icon" href="img/twitter.ico">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
+    <header class="header">
+        <nav class="header__menu">
+            <ul>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
     @@include("components/_header.html")
 
     @@include("pages/page-template.html")
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W1denx19MY0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <style>
+            .video .ytp-large-play-button-red-bg .ytp-large-play-button-bg {
+                fill: #000 !important;
+            }
+        </style>
+    </div>
+
+
+
+
+    <video controls autoplay muted>
+        <source src="img/video.mp4" type="video/mp4">
+    </video>
+
+    <iframe width="420" height="315" src="https://lviv.itstep.org/">
+    </iframe>
 
     @@include("components/_footer.html")
     @@include("icons/_icons.html")
-    
+
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

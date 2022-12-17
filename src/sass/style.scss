@@ -10,3 +10,25 @@
 @import "components/header";
 @import "components/footer";
 
+.header{
+    &__menu{
+        ul{
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                }
+                ul{
+                    li{
+                        a{
+                            
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+

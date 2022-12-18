@@ -13,7 +13,7 @@ $('.item').on('click', function () {
   $(this).addClass('active');
   let tabs = $(this).data("tabs");
 
-  $('.content').addClass('d-none');
-  $('.content[data-tabs = ' + tabs + ']').removeClass('d-none');
-  $('.content[data-tabs = ' + tabs + ']').addClass('d-block');
+  $('.pages').addClass('d-none');
+  $('.pages[data-tabs = ' + tabs + ']').removeClass('d-none');
+  $('.pages[data-tabs = ' + tabs + ']').addClass('d-block');
 }) 

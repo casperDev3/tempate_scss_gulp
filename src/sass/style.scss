@@ -28,20 +28,20 @@
     }
 }
 
-.content__tabs{
-    .content{
-        border: 2px solid #000;
-        margin: 12;
-        height: 600px;
-        width: 100%;  
-    }
-    :first-child{
-        background-color: #f00;
-    }
-    :last-child{
-        background-color: rgb(28, 12, 151);
-    }
-    :nth-child(2){
-        background-color: rgb(20, 225, 71);
-    }
+.pages__tabs{
+    // .pages{
+    //     border: 2px solid #000;
+    //     margin: 12;
+    //     height: 600px;
+    //     min-width: 90vw;  
+    // }
+    // :first-child{
+    //     background-color: #f00;
+    // }
+    // :last-child{
+    //     background-color: rgb(28, 12, 151);
+    // }
+    // :nth-child(2){
+    //     background-color: rgb(20, 225, 71);
+    // }
 }

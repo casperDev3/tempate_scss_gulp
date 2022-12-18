@@ -11,15 +11,26 @@
 
 <body>
     <style>
-        svg{
+         svg{
             width: 500px;
             height: 500px;
-            fill: #f00;
+            fill: rgb(36, 239, 97);
         }
+        .test{
+            cursor: pointer;
+        }
+        .test:hover svg{
+            fill: rgb(206, 122, 27) !important;
+        }
+       
+        
     </style>
-    <svg>
-        <use href="#test" />
-    </svg>
+    <div class="test">
+        <svg>
+            <use href="#test" />
+        </svg>
+    </div>
+    
     @@include("components/_header.html")
 
     <section class="content d-flex">

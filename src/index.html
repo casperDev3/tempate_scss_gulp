@@ -10,6 +10,16 @@
 </head>
 
 <body>
+    <style>
+        svg{
+            width: 500px;
+            height: 500px;
+            fill: #f00;
+        }
+    </style>
+    <svg>
+        <use href="#test" />
+    </svg>
     @@include("components/_header.html")
 
     <section class="content d-flex">
@@ -24,8 +34,12 @@
                 @@include("pages/page-profile.html")
             </div>
        </div>
-        
+       
     </section>
+
+    <div class="d-none">
+        @@include("icons/_icons.html")
+    </div>
     
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
